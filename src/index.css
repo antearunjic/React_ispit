@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e3dac3;
+}
+.userSearch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 2px solid #61605e;
+  color: #61605e;
+  width: 500px;
+  height: 170px;
+}
+
+.searchInput {
+  width: 13rem;
+  padding: 0.7rem;
+  font-size: 0.9rem;
+  border-radius: 1rem;
+  border: 1px solid #61605e;
+}
+
+button {
+  padding: 0.8rem;
+  font-size: 0.8rem;
+  background-color: #61605e;
+  color: white;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 2rem;
+  gap: 5rem;
+  width: 100vw;
+}
+.userInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 2rem;
+  gap: 2rem;
+  font-size: 0.9rem;
+}
+img {
+  width: 130px;
+  height: 130px;
+}
+
+.userULB {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  gap: 1rem;
+}
+h3 {
+  padding-left: 2rem;
+}
+ul {
+  padding-top: 1rem;
+  padding-left: 3rem;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+}
